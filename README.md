@@ -25,3 +25,21 @@ This repository contains datasets and results related to our empirical analysis 
 ## Additional Resources
 
 - **Docker Images**: For replicating the coverage data and other test results, refer to the specific Docker images as described in the `Coverage.csv` file.
+
+### Loading and Running Docker Containers
+
+To load and run the Docker image, follow these steps:
+
+1. **Download the Docker Image**:
+   Download the Docker image from the [link](https://mega.nz/file/AHskCKpL#oTOENE_4jDZ67p80bcqhCVOh-ON-wurF36Wc5wTQHWU).
+
+2. **Load the Docker Image**:
+   Load the Docker image into your local Docker instance using the following command:
+   ```bash
+   docker load < /path/to/image.tar
+
+3. **Run the Docker Container**:
+  To run the Docker container with necessary privileges and network settings, use the following command:
+  ```bash
+  docker run --privileged=true --net="host" --cap-add=NET_ADMIN -v /var/run/docker.sock.raw:/var/run/docker.sock -it <image_name> bash
+
