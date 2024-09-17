@@ -15,12 +15,12 @@ This repository contains datasets and results related to our empirical analysis 
 
 ## RQ2: Open Coding of Uncovered Code Segments
 
-- **Final_Results_RQ3.csv**: Contains the results of open coding analysis on uncovered code segments.
+- **Final_Results_RQ2.csv**: Contains the results of open coding analysis on uncovered code segments.
 - **OpenCoding Folder**: Includes detailed records from two authors involved in the open coding process.
 
 ## RQ3: Mock Object Analysis
 
-- **Final_Results_RQ4.csv**: Contains the results of open coding analysis of mock objects used in the projects.
+- **Final_Results_RQ3.csv**: Contains the results of open coding analysis of mock objects used in the projects.
 - **Mock_FrameWork_List.csv**: Lists all the mocking frameworks identified in our dataset.
 - **OpenCoding Folder**: Contains records from two authors, similar to RQ3.
 
